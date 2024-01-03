@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: #00a541;
+}
+
+.carousel-item img {
+  max-height: 500px; 
+}
+
