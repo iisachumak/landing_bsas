@@ -25,6 +25,10 @@ const Card = () => {
         setImageURL('https://corvenmotos.com.ar/wp-content/uploads/2021/03/New-Energy-110-Blanca.png');
     };
 
+    const openWhatsAppChat = (phoneNumber) => {
+        window.open(`https://wa.me/${+5491152548398}`, '_blank');
+      };
+
     return (
         <div className="container-card card mb-4 mt-2">
             <ul className="thum-card">
@@ -60,7 +64,7 @@ const Card = () => {
                                 </p>
                             </div>
                             <div class="col">
-                                <button type="button" class="btn-verde btn btn-success"><FontAwesomeIcon className='btn-wpp' icon={faWhatsapp} />Me Interesa</button>
+                                <button type="button" class="btn-verde btn btn-success" onClick={() => openWhatsAppChat()}><FontAwesomeIcon className='btn-wpp' icon={faWhatsapp} />Me Interesa</button>
                             </div>
                         </div>
                     </div>
