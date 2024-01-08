@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import CardSlider from './CardSlider'
 
 const Contenedor = () => {
     return (
@@ -9,7 +10,7 @@ const Contenedor = () => {
                     <Card />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <Card />
+                    <CardSlider />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <Card />
