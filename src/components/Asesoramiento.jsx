@@ -5,7 +5,7 @@ const Asesoramiento = () => {
     <div class="container text-center">
       <div class="row m-3">
         <div class="col-sm-12 col-md-6 m-1">
-          <button type="button" className="btn-verde btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Quiero Asesoramiento</button>
+          <button type="button" className="btn-verde-asesoriamiento btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Quiero Asesoramiento</button>
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
