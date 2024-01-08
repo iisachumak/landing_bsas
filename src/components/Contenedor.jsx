@@ -3,18 +3,37 @@ import Card from './Card'
 
 const Contenedor = () => {
     return (
-        <div className="container text-center">
+        <div className="continer-card container text-center">
             <div className="row">
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                     <Card />
                 </div>
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                     <Card />
                 </div>
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-12 col-md-6 col-lg-4">
                     <Card />
                 </div>
-                <div className="col-sm-12 col-md-6">
+            </div>
+            <div className="row">
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                    <Card />
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                    <Card />
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                    <Card />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                    <Card />
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                    <Card />
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-4">
                     <Card />
                 </div>
             </div>

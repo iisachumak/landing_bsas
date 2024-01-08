@@ -26,7 +26,7 @@ const Card = () => {
     };
 
     return (
-        <div className="container-card card m-4">
+        <div className="container-card card mb-4 mt-2">
             <ul className="thum-card">
                 <li className='li-card' onMouseOver={handleMouseOver1} onMouseOut={handleMouseOut}>
                     <img src='https://corvenmotos.com.ar/wp-content/uploads/2021/03/New-Energy-110-Azul.png' className="img_right-card" alt="" />
@@ -49,14 +49,18 @@ const Card = () => {
             </div>
             <div className="principal-card">
                 <div className="containerasesor-card">
-                    <h5 className="info-card">Con tu compra casco y llavero de regalo</h5>
-                    <div className="container text-center">
-                        <div className="card-buttom row">
-                            <div className="col-lg-6">
-                                <h3 className='price'>$860.877</h3>
+                    <div class="div-info text-center">
+                        <p className="info-card">Con tu compra casco y llavero de regalo</p>
+                    </div>
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <p className='price'>
+                                    $860.877
+                                </p>
                             </div>
-                            <div className="card-button col-lg-6">
-                                <button type="button" className="btn-verde btn btn-success mb-2"><FontAwesomeIcon className='btn-wpp'  icon={faWhatsapp} />Me interesa</button>
+                            <div class="col">
+                                <button type="button" class="btn-verde btn btn-success"><FontAwesomeIcon className='btn-wpp' icon={faWhatsapp} />Me Interesa</button>
                             </div>
                         </div>
                     </div>
