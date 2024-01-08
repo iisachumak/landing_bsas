@@ -31,8 +31,9 @@ const Ubicacion = () => {
                                             <FontAwesomeIcon className='icontel' icon={faPhone} />Service/Repuestos: <strong>11 15-7619-5947</strong>
                                         </li>
                                         <li class="list-group-item">
-                                            <FontAwesomeIcon className='icongps' icon={faLocationDot} />Av. Hipólito Yrigoyen 1171/73, B1708DLN Morón, Provincia de Buenos Aires <br />
-                                            <FontAwesomeIcon className='icontel' icon={faPhone} />Administración/Service: <strong>0381 15-350-0955</strong></li>
+                                            <FontAwesomeIcon className='icongps' icon={faLocationDot} />Av. Hipólito Yrigoyen 1171/73, B1708DLN Morón, Provincia de Buenos Aires<br />
+                                            <FontAwesomeIcon className='icontel' icon={faPhone} />Administración/Service: <strong>0381 15-350-0955</strong>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

@@ -61,7 +61,30 @@
   display: block;
   margin: 0 auto;
 }
+
 /*---------*/
+
+.slick-prev, .slick-next{
+  margin: -1.5rem;
+}
+
+.imgdot{
+  text-decoration: none;
+  border: 2px solid rgba(0, 0, 0, 0.356);
+  border-radius: 100px;
+  width: 27px;
+  height: 27px;
+  -webkit-box-shadow: -1px 3px 15px -5px rgba(102,102,102,1);
+  -moz-box-shadow: -1px 3px 15px -5px rgba(102,102,102,1);
+  box-shadow: -1px 3px 15px -5px rgba(102,102,102,1);
+}
+
+.imgcardslice {
+  max-width: 400px; /* Ancho máximo de las imágenes */
+  width: 100%; /* Ajusta el ancho al máximo permitido */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin: 0 10px; /* Espacio horizontal entre las imágenes */
+}
 
 .footer {
   background-color: #00a541;
