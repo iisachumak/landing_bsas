@@ -31,12 +31,12 @@ const CardSlider = () => {
 
     const openWhatsAppChat = (phoneNumber) => {
         window.open(`https://wa.me/${+5491152548398}`, '_blank');
-      };
+    };
 
     return (
         <div className="slider-container">
             <div className="container-card card mb-4 mt-2">
-            <div className='card-top'>
+                <div className='card-top'>
                     <h2 className="title-card">BLITZ BASE 110</h2>
                 </div>
                 <div className='container-cucardas'>
@@ -58,24 +58,26 @@ const CardSlider = () => {
                     </div>
                 </Slider>
                 <div className="principal-card">
-                <div className="containerasesor-card">
-                    <div class="div-info text-center">
-                        <p className="info-card">Con tu compra casco y llavero de regalo</p>
-                    </div>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <p className='price'>
-                                    $860.877
-                                </p>
-                            </div>
-                            <div class="col">
-                                <button type="button" class="btn-verde btn btn-success" onClick={() => openWhatsAppChat()}><FontAwesomeIcon className='btn-wpp' icon={faWhatsapp} />Me Interesa</button>
+                    <div className="containerasesor-card">
+                        <div class="div-info text-center">
+                            <p className="info-card">
+                                <strong>Con tu compra casco y llavero de regalo</strong>
+                            </p>
+                        </div>
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col">
+                                    <p className='price'>
+                                        $860.877
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <button type="button" class="btn-verde btn btn-success" onClick={() => openWhatsAppChat()}><FontAwesomeIcon className='btn-wpp' icon={faWhatsapp} />Me Interesa</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     );

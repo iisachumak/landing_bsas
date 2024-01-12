@@ -1,9 +1,5 @@
 .container-card {
-    border: 1px solid rgba(0, 0, 0, 0.290);
-    border-radius: 20px;
-    box-shadow: 10px 13px 10px -12px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 5px 10px 20px -12px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 13px 24px -12px rgba(0, 0, 0, 0.75);
+    border: none;
     transition: .5s;
     /*background-image: 
     url('https://png.pngtree.com/png-clipart/20230106/ourmid/pngtree-3d-podium-for-product-display-png-image_6553655.png');
@@ -128,6 +124,7 @@
     border-top: 1px solid rgba(0, 0, 0, 0.290);
     background: rgba(128, 128, 128, 0.297);
 }
+
 
 @media screen and (max-width: 576px) {
 
