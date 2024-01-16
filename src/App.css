@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.mi-clase {
+  font-family: 'Roboto', sans-serif;
+}
+
+
 .navbar{
   background-color: #00a541;
 }
@@ -99,23 +112,5 @@
   align-items: center;
 }
 
-.footer p {
-  margin: 0;
-}
 
-.footer-links {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.footer-links li {
-  margin: 0 10px;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-}
 
