@@ -28,7 +28,7 @@ const CarouselWithThumbnails = () => {
         <h2 className="title-card">BLITZ BASE 110</h2>
       </div>
       <div className='container-cucardas'>
-        <img className='marca-moto' src="https://www.ingenplast.com/images/logo-corven.png" alt="" srcset="" />
+        <img className='marca-moto' src="https://1000marcas.net/wp-content/uploads/2019/12/Yamaha-Log%D0%BE.png" alt="" srcset="" />
         <img className='cucarda-moto' src="https://ofertas.yuhmak.com.ar/uploads/150X150%20CONTADO.png" alt="" srcset="" />
       </div>
       <div className="carousel-container">
