@@ -1,0 +1,22 @@
+.container-list{
+    color: white;
+}
+
+ul li{
+    margin: .4rem;
+    list-style: none;
+}
+
+li a{
+    color: white;
+    text-decoration:none;
+}
+
+.col-left{
+    text-align: left;
+}
+
+.col-right{
+    text-align: center;
+    color: white;
+}

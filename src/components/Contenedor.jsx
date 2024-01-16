@@ -5,13 +5,13 @@ import CarouselWithThumbnails from './CarouselWithThumbnails'
 
 const Contenedor = () => {
     return (
-        <div className="continer-card container text-center p-5">
+        <div className="continer-card container text-center p-4">
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <Card />
+                    <CarouselWithThumbnails />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <CardSlider />
+                    <CarouselWithThumbnails />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <CarouselWithThumbnails />
@@ -19,10 +19,10 @@ const Contenedor = () => {
             </div>
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <Card />
+                    <CarouselWithThumbnails />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <CardSlider />
+                    <CarouselWithThumbnails />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <CarouselWithThumbnails />
@@ -30,10 +30,10 @@ const Contenedor = () => {
             </div>
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <Card />
+                    <CarouselWithThumbnails />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <CardSlider />
+                    <CarouselWithThumbnails />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <CarouselWithThumbnails />

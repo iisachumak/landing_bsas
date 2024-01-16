@@ -1,0 +1,22 @@
+.contenedor_filtro{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.modal-principal{
+    border-radius: 15px;
+}
+
+.btn-asesoriamiento{
+    background-color: #00a541;
+}
+
+.btn_quiero_asesoramiento{
+    background-color: #00a541;
+    border-radius: 20px;
+}
+
+
+.btn_cerrar_frm{
+    border-radius: 20px;
+}
