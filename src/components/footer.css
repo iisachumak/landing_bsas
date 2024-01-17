@@ -1,3 +1,8 @@
+.footer {
+    background-color: #00a541;
+    color: #fff;
+}
+
 .container-list {
     color: white;
 }
@@ -12,20 +17,23 @@ li a {
     text-decoration: none;
 }
 
-.col_logo{
+.col_logo {
+    padding: 0;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .col_footer_right {
+    padding: 0;
     text-align: right;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .iconredes {
-    margin-top: 2rem;
+    padding: 0;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: left;
     font-size: 2rem;
@@ -33,7 +41,8 @@ li a {
 
 .iconfb {
     color: white;
-    margin-right: 15px;
+    margin-right: 1rem;
+    margin-left: .5rem;
     transition: color 0.3s ease;
 }
 
@@ -43,9 +52,11 @@ li a {
 
 .iconyt {
     color: white;
-    margin-right: 15px;
+    margin-right: 1rem;
+    margin-left: .5rem;
     transition: color 0.3s ease;
 }
+
 .iconyt:hover {
     color: rgb(255, 0, 0);
 }
@@ -53,35 +64,39 @@ li a {
 
 .iconig {
     color: white;
-    margin-right: 15px;
+    margin-right: 1rem;
+    margin-left: .5rem;
     transition: color 0.3s ease;
 }
-.iconig:hover{
+
+.iconig:hover {
     color: rgb(193, 53, 132);
 }
 
 .iconlink {
     color: white;
-    margin-right: 15px;
+    margin-right: 1rem;
+    margin-left: .5rem;
     transition: color 0.3s ease;
 }
-.iconlink:hover{
+
+.iconlink:hover {
     color: rgb(0, 119, 181)
 }
 
 
 @media screen and (max-width: 576px) {
-    
+
     .col_footer_right {
-        text-align: center;
+        text-align: inherit;
     }
-    
+
     .col_logo {
         text-align: center;
     }
-    
+
     .iconredes {
         text-align: center;
     }
-    
+
 }

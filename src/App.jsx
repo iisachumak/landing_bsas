@@ -17,7 +17,6 @@ function App() {
       <Asesoramiento />
       <Contenedor />
       <Ubicacion />
-      <SalesAdvisorsCarousel />
       <Footer />
     </>
   )

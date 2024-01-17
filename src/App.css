@@ -99,18 +99,5 @@ h1, h2, h3 {
   margin: 0 10px; /* Espacio horizontal entre las imágenes */
 }
 
-.footer {
-  background-color: #00a541;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 
