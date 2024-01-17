@@ -11,8 +11,8 @@ const SalesAdvisorsCarousel = () => {
     { id: 1, name: 'Analia', description: 'Asesore Digital Lorem ipsum dolor sit amet.', image: 'https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual.png', whatsapp: '+5491152548398' },
     { id: 1, name: 'Juan Pablo', description: 'Asesore Digital Lorem ipsum dolor sit amet.', image: 'https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual.png', whatsapp: '+5491152548398' },
     { id: 1, name: 'Vito', description: 'Asesore Digital Lorem ipsum dolor sit amet.', image: 'https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual.png', whatsapp: '+5491152548398' },
-    { id: 2, name: 'Cynthia', description: 'Asesore Digital Consectetur adipiscing elit.', image: 'https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual.png', whatsapp: '+5491152548398' },
-    { id: 3, name: 'Nuevo Asesore', description: 'Asesore Digital Sed do eiusmod tempor incididunt.', image: 'https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual.png', whatsapp: '+5491152548398' },
+    { id: 2, name: 'Cynthia', description: 'Asesore Digital Lorem ipsum dolor sit amet.', image: 'https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual.png', whatsapp: '+5491152548398' },
+    { id: 3, name: 'Majo', description: 'Asesore Digital Lorem ipsum dolor sit amet.', image: 'https://images.vexels.com/media/users/3/129733/isolated/preview/a558682b158debb6d6f49d07d854f99f-silueta-de-avatar-masculino-casual.png', whatsapp: '+5491152548398' },
     /* --- */
   ];
 

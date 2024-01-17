@@ -1,22 +1,87 @@
-.container-list{
+.container-list {
     color: white;
 }
 
-ul li{
+ul li {
     margin: .4rem;
     list-style: none;
 }
 
-li a{
+li a {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-.col-left{
-    text-align: left;
-}
-
-.col-right{
+.col_logo{
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.col_footer_right {
+    text-align: right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.iconredes {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.iconfb {
     color: white;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.iconfb:hover {
+    color: rgb(59, 89, 152);
+}
+
+.iconyt {
+    color: white;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+.iconyt:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+.iconig {
+    color: white;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+.iconig:hover{
+    color: rgb(193, 53, 132);
+}
+
+.iconlink {
+    color: white;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+.iconlink:hover{
+    color: rgb(0, 119, 181)
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    .col_footer_right {
+        text-align: center;
+    }
+    
+    .col_logo {
+        text-align: center;
+    }
+    
+    .iconredes {
+        text-align: center;
+    }
+    
 }
