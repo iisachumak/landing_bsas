@@ -31,10 +31,10 @@ const Footer = () => {
                         </div>
                         <div class="col_footer_right col-left col-lg-4 col-md-4 col-sm-10">
                             <ul>
-                                <li><a href="https://www.yuhmak.com/sucursales">Sucursales</a></li>
-                                <li><a href="https://www.yuhmak.com/nosotros">Sobre Nosotros</a></li>
-                                <li><a href="https://www.yuhmak.com/politicas">Políticas de privacidad</a></li>
-                                <li><a href="https://www.yuhmak.com/terminos">Términos y Condiciones</a></li>
+                                <li><a href="https://www.yuhmak.com/sucursales" target='blank'>Sucursales</a></li>
+                                <li><a href="https://www.yuhmak.com/nosotros" target='blank'>Sobre Nosotros</a></li>
+                                <li><a href="https://www.yuhmak.com/politicas" target='blank'>Políticas de privacidad</a></li>
+                                <li><a href="https://www.yuhmak.com/terminos" target='blank'>Términos y Condiciones</a></li>
                             </ul>
                         </div>
                     </div>

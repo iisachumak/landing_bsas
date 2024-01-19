@@ -1,7 +1,7 @@
 import React from 'react'
-import Card from './Card'
-import CardSlider from './CardSlider'
 import CarouselWithThumbnails from './CarouselWithThumbnails'
+
+import './card.css'
 
 const Contenedor = () => {
     return (

@@ -5,7 +5,6 @@ import Asesoramiento from './components/Asesoramiento'
 import Contenedor from './components/Contenedor'
 import Ubicacion from './components/Ubicacion'
 import Footer from './components/Footer'
-import SalesAdvisorsCarousel from './components/Asesores'
 
 
 function App() {
