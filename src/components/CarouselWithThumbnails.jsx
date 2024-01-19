@@ -11,14 +11,13 @@ const CarouselWithThumbnails = () => {
     'https://www.yamaha-motor.com.ar/images/productos//colores/598e8ffe1e62699f59ea41e93596f1e3.jpg',
     'https://www.yamaha-motor.com.ar/images/productos/374adc19c57054879513d1d2441a401d_md.webp?667',
     'https://www.yamaha-motor.com.ar/images/productos/dfdad64253f7ea44e42f2623123511a8_md.webp?667',
-    // Add more image URLs as needed
   ];
 
   const handleThumbnailClick = (index) => {
     setCurrentSlide(index);
   };
 
-  const openWhatsAppChat = (phoneNumber) => {
+  const openWhatsAppChat = () => {
     window.open(`https://wa.me/${+5491152548398}`, '_blank');
   };
 
